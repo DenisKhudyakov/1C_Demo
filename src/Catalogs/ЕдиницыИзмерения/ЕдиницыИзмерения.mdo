@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a46449f-6824-4c0b-91bc-12b70844eaa1">
+  <producedTypes>
+    <objectType typeId="8163f46f-030e-4d17-89ba-2c68e3fb6772" valueTypeId="4f390c38-0778-415c-87da-574cea935afc"/>
+    <refType typeId="a034ecba-91c9-42ee-b885-ef199b3ddb3f" valueTypeId="fe8ab622-38b3-47a0-aba8-13a99da9fa3c"/>
+    <selectionType typeId="740b6b8f-d1dd-40db-939c-d3adffbf0ed5" valueTypeId="8045b3a1-827a-444e-a521-51f27c663af6"/>
+    <listType typeId="fd9936fc-57c4-410d-9e49-9c03ccec36f9" valueTypeId="1307e603-9369-495b-bc4d-337a2172c815"/>
+    <managerType typeId="86fdaf3e-bdab-4cf9-99a5-3acc398d2be2" valueTypeId="69f409ca-5731-402e-b309-37e6e91ed852"/>
+  </producedTypes>
+  <name>ЕдиницыИзмерения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единицы измерения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЕдиницыИзмерения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЕдиницыИзмерения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="ef03b98e-81ea-4afb-bf88-db3e320d8956">
+      <name>Кг</name>
+      <description>Кг</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="4256f031-1d14-49e3-87bf-7ff3626ee3f8">
+      <name>Компл</name>
+      <description>Компл</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="ae1e0cb3-0e80-4a65-8cae-f850d8ffe9ef">
+      <name>Литр</name>
+      <description>Литр</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="4e9f782a-d17c-42bf-bc78-0f335a656d0f">
+      <name>Шт</name>
+      <description>Шт</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ЕдиницыИзмерения.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="e5cb8a86-98c4-49f2-a5b9-f915da9a4113">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
