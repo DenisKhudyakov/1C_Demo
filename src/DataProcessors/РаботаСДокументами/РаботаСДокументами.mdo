@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd060ca9-8f6b-4611-ad4a-d22b62a83015">
+  <producedTypes>
+    <objectType typeId="76f24baf-8c30-4678-8041-7143fd31976d" valueTypeId="0c45a5ca-774a-4eca-91f9-cc60ff794fc7"/>
+    <managerType typeId="b69c0b28-e2a7-494d-8896-ab0b78db9e42" valueTypeId="612d1ab4-2093-40c8-b234-f7e488a3e932"/>
+  </producedTypes>
+  <name>РаботаСДокументами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с документами</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РаботаСДокументами.Form.Форма</defaultForm>
+  <attributes uuid="4b4e0f28-be2a-485a-9bf9-395fc5514916">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9c953ccd-9b14-495d-b51e-bd539ed42011">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="e8a42a1e-ce04-45d1-8427-1f1d0aaf87db">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

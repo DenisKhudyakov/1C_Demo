@@ -54,4 +54,5 @@
   <documents>Document.ПоступлениеТоваров</documents>
   <enums>Enum.ВидыНоменклатуры</enums>
   <dataProcessors>DataProcessor.РаботаСоСправочником</dataProcessors>
+  <dataProcessors>DataProcessor.РаботаСДокументами</dataProcessors>
 </mdclass:Configuration>
