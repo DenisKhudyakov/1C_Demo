@@ -40,6 +40,7 @@
   <subsystems>Subsystem.Продажи</subsystems>
   <roles>Role.Полная</roles>
   <roles>Role.Другая</roles>
+  <commandGroups>CommandGroup.Печать</commandGroups>
   <constants>Constant.НаименованиеКомпании</constants>
   <constants>Constant.УчётПоСериям</constants>
   <constants>Constant.УчетПоСкладам</constants>
@@ -52,6 +53,9 @@
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.Валюты</catalogs>
   <documents>Document.ПоступлениеТоваров</documents>
+  <documents>Document.ПродажаТоваров</documents>
+  <documents>Document.РКО</documents>
+  <documents>Document.ПКО</documents>
   <enums>Enum.ВидыНоменклатуры</enums>
   <dataProcessors>DataProcessor.РаботаСоСправочником</dataProcessors>
   <dataProcessors>DataProcessor.РаботаСДокументами</dataProcessors>
