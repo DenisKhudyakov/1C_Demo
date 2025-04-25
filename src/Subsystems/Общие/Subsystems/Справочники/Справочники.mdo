@@ -10,5 +10,6 @@
   <content>Catalog.ЕдиницыИзмерения</content>
   <content>Catalog.Подразделение</content>
   <content>Catalog.Сотрудники</content>
+  <content>Catalog.Организации</content>
   <parentSubsystem>Subsystem.Общие</parentSubsystem>
 </mdclass:Subsystem>

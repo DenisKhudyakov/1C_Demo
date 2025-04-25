@@ -52,6 +52,8 @@
   <catalogs>Catalog.Договора</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Серии</catalogs>
   <documents>Document.ПоступлениеТоваров</documents>
   <documents>Document.ПродажаТоваров</documents>
   <documents>Document.РКО</documents>
