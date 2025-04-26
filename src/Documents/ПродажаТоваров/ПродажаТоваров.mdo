@@ -262,6 +262,7 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
       <choiceParameterLinks>
         <name>Отбор.Владелец</name>
         <field>Document.ПродажаТоваров.TabularSection.Товары.Attribute.Номенклатура</field>

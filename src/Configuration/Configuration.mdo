@@ -58,6 +58,7 @@
   <documents>Document.ПродажаТоваров</documents>
   <documents>Document.РКО</documents>
   <documents>Document.ПКО</documents>
+  <documentJournals>DocumentJournal.СкладскиеДокументы</documentJournals>
   <enums>Enum.ВидыНоменклатуры</enums>
   <dataProcessors>DataProcessor.РаботаСоСправочником</dataProcessors>
   <dataProcessors>DataProcessor.РаботаСДокументами</dataProcessors>
