@@ -62,4 +62,6 @@
   <enums>Enum.ВидыНоменклатуры</enums>
   <dataProcessors>DataProcessor.РаботаСоСправочником</dataProcessors>
   <dataProcessors>DataProcessor.РаботаСДокументами</dataProcessors>
+  <dataProcessors>DataProcessor.РаботаСРегистрамиСведений</dataProcessors>
+  <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
 </mdclass:Configuration>

@@ -10,6 +10,7 @@
   <content>CommonForm.ПарметрыУчета</content>
   <content>DataProcessor.РаботаСоСправочником</content>
   <content>DataProcessor.РаботаСДокументами</content>
+  <content>DataProcessor.РаботаСРегистрамиСведений</content>
   <subsystems>Справочники</subsystems>
   <subsystems>Журналы</subsystems>
 </mdclass:Subsystem>

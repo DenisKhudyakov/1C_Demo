@@ -8,5 +8,6 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>DocumentJournal.СкладскиеДокументы</content>
+  <content>InformationRegister.КурсыВалют</content>
   <parentSubsystem>Subsystem.Общие</parentSubsystem>
 </mdclass:Subsystem>
