@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0a143b4-e37b-4058-861b-42a9703d5f18">
+  <name>УчётПоОрганизациям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учёт по организациям</value>
+  </synonym>
+  <location>Constant.УчетПоОрганизациям</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.РКО.Attribute.Организация</content>
+  <content>Document.ПКО.Attribute.Организация</content>
+  <content>Document.ПоступлениеТоваров.Attribute.Организация</content>
+  <content>Document.ПродажаТоваров.Attribute.Организация</content>
+  <content>Catalog.Организации</content>
+</mdclass:FunctionalOption>

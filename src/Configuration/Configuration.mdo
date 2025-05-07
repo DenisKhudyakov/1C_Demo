@@ -40,10 +40,15 @@
   <subsystems>Subsystem.Продажи</subsystems>
   <roles>Role.Полная</roles>
   <roles>Role.Другая</roles>
+  <functionalOptions>FunctionalOption.УчётПоСериям</functionalOptions>
+  <functionalOptions>FunctionalOption.УчетПоПодразделениям</functionalOptions>
+  <functionalOptions>FunctionalOption.УчётПоОрганизациям</functionalOptions>
+  <functionalOptionsParameters>FunctionalOptionsParameter.ПоПодразделениям</functionalOptionsParameters>
   <commandGroups>CommandGroup.Печать</commandGroups>
   <constants>Constant.НаименованиеКомпании</constants>
   <constants>Constant.УчётПоСериям</constants>
   <constants>Constant.УчетПоСкладам</constants>
+  <constants>Constant.УчетПоОрганизациям</constants>
   <commonForms>CommonForm.ПарметрыУчета</commonForms>
   <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
   <catalogs>Catalog.Подразделение</catalogs>
@@ -54,14 +59,20 @@
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.Серии</catalogs>
+  <catalogs>Catalog.ВидыЦен</catalogs>
   <documents>Document.ПоступлениеТоваров</documents>
   <documents>Document.ПродажаТоваров</documents>
   <documents>Document.РКО</documents>
   <documents>Document.ПКО</documents>
+  <documents>Document.РегистрацияЦенКонтрагентов</documents>
+  <documents>Document.УстановкаЦенНоменклатуры</documents>
   <documentJournals>DocumentJournal.СкладскиеДокументы</documentJournals>
   <enums>Enum.ВидыНоменклатуры</enums>
   <dataProcessors>DataProcessor.РаботаСоСправочником</dataProcessors>
   <dataProcessors>DataProcessor.РаботаСДокументами</dataProcessors>
   <dataProcessors>DataProcessor.РаботаСРегистрамиСведений</dataProcessors>
   <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
+  <informationRegisters>InformationRegister.ЦеныПоставщиков</informationRegisters>
+  <informationRegisters>InformationRegister.КассовыеДокументы</informationRegisters>
+  <informationRegisters>InformationRegister.ЦеныПоВидамЦен</informationRegisters>
 </mdclass:Configuration>

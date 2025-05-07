@@ -26,6 +26,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ПКО.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>InformationRegister.КассовыеДокументы</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="6334526a-3dcc-4efc-b8ef-afa5c0aec3dd">

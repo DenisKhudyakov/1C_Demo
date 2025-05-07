@@ -9,5 +9,6 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Document.ПоступлениеТоваров</content>
   <content>Document.РКО</content>
+  <content>Document.РегистрацияЦенКонтрагентов</content>
   <parentSubsystem>Subsystem.Закупки</parentSubsystem>
 </mdclass:Subsystem>
