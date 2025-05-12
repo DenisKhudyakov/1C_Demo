@@ -60,6 +60,7 @@
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.Серии</catalogs>
   <catalogs>Catalog.ВидыЦен</catalogs>
+  <catalogs>Catalog.ЗначенияСвойстТоваров</catalogs>
   <documents>Document.ПоступлениеТоваров</documents>
   <documents>Document.ПродажаТоваров</documents>
   <documents>Document.РКО</documents>
@@ -71,8 +72,11 @@
   <dataProcessors>DataProcessor.РаботаСоСправочником</dataProcessors>
   <dataProcessors>DataProcessor.РаботаСДокументами</dataProcessors>
   <dataProcessors>DataProcessor.РаботаСРегистрамиСведений</dataProcessors>
+  <dataProcessors>DataProcessor.МеханизмЗапросов</dataProcessors>
   <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныПоставщиков</informationRegisters>
   <informationRegisters>InformationRegister.КассовыеДокументы</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныПоВидамЦен</informationRegisters>
+  <informationRegisters>InformationRegister.СвойстваНоменклатуры</informationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СвойстваТоваров</chartsOfCharacteristicTypes>
 </mdclass:Configuration>

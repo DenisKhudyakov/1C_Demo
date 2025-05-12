@@ -11,5 +11,7 @@
   <content>Catalog.Подразделение</content>
   <content>Catalog.Сотрудники</content>
   <content>Catalog.Организации</content>
+  <content>ChartOfCharacteristicTypes.СвойстваТоваров</content>
+  <content>Catalog.ЗначенияСвойстТоваров</content>
   <parentSubsystem>Subsystem.Общие</parentSubsystem>
 </mdclass:Subsystem>

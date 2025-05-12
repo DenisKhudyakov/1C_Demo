@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7024c3c0-08b2-4265-aebe-3187121f2f9e">
+  <producedTypes>
+    <objectType typeId="7d1aaefb-cd05-42ff-be0e-188b3a61ff24" valueTypeId="8f5e071d-aa33-448c-ac2b-721e0c27bb3b"/>
+    <refType typeId="7edf3c9c-e6ff-4c41-bde3-457a42d0a47f" valueTypeId="199bfd9e-8b40-4f48-a01f-c2daa077baa5"/>
+    <selectionType typeId="ae745716-102f-4c6d-bf08-030d85f55ba7" valueTypeId="c06c19aa-767d-43bf-af23-57a2ee452be1"/>
+    <listType typeId="6237be58-bb64-4ac9-a7e5-c1183342a86b" valueTypeId="b47f17f4-3b29-4b20-82a1-f7c254e2be67"/>
+    <managerType typeId="b8a282a5-756a-4a70-97e8-b557539f601a" valueTypeId="1d304674-d7b8-4c45-addf-482cb3d4b274"/>
+    <containerType typeId="0d72c52a-bc49-4770-be12-8f6468bc0788" valueTypeId="707ce93f-1ea8-454a-aa07-aa560a4b8e37"/>
+  </producedTypes>
+  <name>СвойстваТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Свойства товаров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.СвойстваТоваров.StandardAttribute.Code</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.СвойстваТоваров.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <characteristicExtValues>Catalog.ЗначенияСвойстТоваров</characteristicExtValues>
+  <type>
+    <types>CatalogRef.ЗначенияСвойстТоваров</types>
+    <types>DocumentRef.ПКО</types>
+    <types>Boolean</types>
+    <types>CatalogRef.Серии</types>
+    <types>CatalogRef.Организации</types>
+    <types>DocumentRef.ПродажаТоваров</types>
+    <types>CatalogRef.Контрагенты</types>
+    <types>String</types>
+    <types>CatalogRef.ЕдиницыИзмерения</types>
+    <types>CatalogRef.Сотрудники</types>
+    <types>Date</types>
+    <types>EnumRef.ВидыНоменклатуры</types>
+    <types>Number</types>
+    <types>CatalogRef.Подразделение</types>
+    <types>DocumentRef.ПоступлениеТоваров</types>
+    <types>CatalogRef.ВидыЦен</types>
+    <types>CatalogRef.Договора</types>
+    <types>DocumentRef.РегистрацияЦенКонтрагентов</types>
+    <types>CatalogRef.Номенклатура</types>
+    <types>CatalogRef.Валюты</types>
+    <types>DocumentRef.РКО</types>
+    <types>DocumentRef.УстановкаЦенНоменклатуры</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <hierarchical>true</hierarchical>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="2a0fc271-63de-44de-bb9a-b075c099cf8b">
+      <name>КоличествоКомпрессоров</name>
+      <description>Количество компрессоров</description>
+      <code>000000001</code>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

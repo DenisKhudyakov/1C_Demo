@@ -11,6 +11,8 @@
   <content>DataProcessor.РаботаСоСправочником</content>
   <content>DataProcessor.РаботаСДокументами</content>
   <content>DataProcessor.РаботаСРегистрамиСведений</content>
+  <content>InformationRegister.СвойстваНоменклатуры</content>
+  <content>DataProcessor.МеханизмЗапросов</content>
   <subsystems>Справочники</subsystems>
   <subsystems>Журналы</subsystems>
 </mdclass:Subsystem>
