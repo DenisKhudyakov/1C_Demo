@@ -20,4 +20,25 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <templates uuid="b29c5f37-1be9-4f13-a8ea-0937546ceaa1">
+    <name>Макет</name>
+  </templates>
+  <templates uuid="448001ef-a6dd-4311-a3bc-fee60fb3b63d">
+    <name>МакетВиртТ</name>
+  </templates>
+  <templates uuid="93645142-aa63-41d1-be1e-a67be3bff606">
+    <name>МакетНИ</name>
+  </templates>
+  <templates uuid="ae1e12ef-c5ed-49d6-af03-d510deffee24">
+    <name>МакетДляСоединений</name>
+  </templates>
+  <templates uuid="33382ebe-cbb9-4790-9a1e-a34a63bb7789">
+    <name>Макет1</name>
+  </templates>
+  <templates uuid="43df1de4-692d-4289-bca8-30dc5f2dea2a">
+    <name>МакетПЗ</name>
+  </templates>
+  <templates uuid="0eab80f5-3888-40d9-b6f3-33b8a4a55438">
+    <name>МакетЛитералЗначений</name>
+  </templates>
 </mdclass:DataProcessor>

@@ -69,6 +69,12 @@
   <documents>Document.УстановкаЦенНоменклатуры</documents>
   <documentJournals>DocumentJournal.СкладскиеДокументы</documentJournals>
   <enums>Enum.ВидыНоменклатуры</enums>
+  <reports>Report.Закупки</reports>
+  <reports>Report.ОтчетТест</reports>
+  <reports>Report.Продажи</reports>
+  <reports>Report.ПрайсЛистПоставщика</reports>
+  <reports>Report.СредниеЦеныЗакупки</reports>
+  <reports>Report.НоменклатураБезДвижения</reports>
   <dataProcessors>DataProcessor.РаботаСоСправочником</dataProcessors>
   <dataProcessors>DataProcessor.РаботаСДокументами</dataProcessors>
   <dataProcessors>DataProcessor.РаботаСРегистрамиСведений</dataProcessors>
