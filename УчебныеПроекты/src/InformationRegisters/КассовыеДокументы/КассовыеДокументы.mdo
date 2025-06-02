@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="51393ab1-ee34-4e79-ab84-a0440e3fbd34">
+  <producedTypes>
+    <selectionType typeId="141fa725-312b-4cf2-ac57-2c8268f51834" valueTypeId="b20c831f-c87f-4dee-ab86-2cc85046242d"/>
+    <listType typeId="6cc54cdd-95f8-4ad2-99e1-8573b64aff37" valueTypeId="9ff988c4-f2e7-4e3b-89ba-376c7ff33b9e"/>
+    <managerType typeId="c151d792-3e23-488c-97a5-fa157fa33477" valueTypeId="ac396365-be11-4776-902e-0ce21828b3ad"/>
+    <recordSetType typeId="cbc8f0dd-ef8e-4a32-a885-62be1c3504d7" valueTypeId="6ba73ebb-0cdd-4b54-9486-0ce719327975"/>
+    <recordKeyType typeId="664ca209-1954-4ec2-9a29-ca8364adbb87" valueTypeId="a1b01252-15b7-42a1-b043-140f1ec84ea2"/>
+    <recordType typeId="fd4c3d20-c54b-475b-8082-9f13885d0ffe" valueTypeId="cfc1fedc-8dea-4887-9699-a460fa75b4ff"/>
+    <recordManagerType typeId="2ef39e4c-c72a-4ffe-9a68-4745b1f70430" valueTypeId="093645ed-ebdb-4892-a22d-cd95e44b7f8e"/>
+  </producedTypes>
+  <name>КассовыеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кассовые документы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a9b466f5-631d-4c85-8005-e7443b714792">
+    <name>СуммаДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма документов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="7c8a57d3-c813-41f0-8133-15157a60c44b">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1e49ac71-fa25-48b7-9890-305be985e189">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

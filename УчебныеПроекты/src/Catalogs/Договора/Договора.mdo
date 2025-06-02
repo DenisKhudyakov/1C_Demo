@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba9d1835-6e0b-4af3-9842-dfcfed4853e5">
+  <producedTypes>
+    <objectType typeId="8c688002-d867-4184-89d8-90cd7456372b" valueTypeId="1da859bf-236a-4727-b9d8-b8f246e65ef9"/>
+    <refType typeId="d0751210-e094-4348-8aa7-4e5aa4a86366" valueTypeId="9afe858b-0d78-4c13-abc1-3b711ed1dd48"/>
+    <selectionType typeId="6c3c8cd1-fc67-4cc1-89eb-1ed341227055" valueTypeId="ca4c9bf5-631f-4c48-b746-4035e97dc9f0"/>
+    <listType typeId="c1fe7e23-a0ac-4ad5-a9b3-c37a37857d41" valueTypeId="fb4a79a7-f3d0-4767-aa8f-26532fd3efaa"/>
+    <managerType typeId="74b8437d-78c5-4ae1-a2ab-c3aad91b604e" valueTypeId="80224940-73d6-48f7-86b0-04e88666d4d5"/>
+  </producedTypes>
+  <name>Договора</name>
+  <synonym>
+    <key>ru</key>
+    <value>Договора</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Договора.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Договора.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Контрагенты</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="34ea9afb-f9ba-4659-980a-379f5db19f70">
+    <name>Действует</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действует</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="070ef8ef-b88e-4f99-9ce2-955289e11e72">
+    <name>НомерДоговора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер договора</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="22e2884f-d748-48a9-8e64-db1d5ed17d14">
+    <name>ДействуетДо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действует до</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

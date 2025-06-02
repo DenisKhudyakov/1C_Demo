@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c45701b-00bb-4249-8372-1f5ed2d3826e">
+  <producedTypes>
+    <objectType typeId="2b7634ce-9ec4-42bd-bb3a-ec4a1683948a" valueTypeId="cec3d7d7-bb33-4947-b7d2-1882ba2a4e31"/>
+    <refType typeId="d9171056-01c2-4675-ab27-ebfa00ededfc" valueTypeId="cb0fb1bb-026a-42b3-9920-5cb835fc02ce"/>
+    <selectionType typeId="acf14baf-0a7f-4af8-ad52-81fa7628db02" valueTypeId="958dd7ac-a0cc-48e2-a850-18dd2cc297ec"/>
+    <listType typeId="9bb24891-8ed0-4db1-9a0d-f1273c9062b6" valueTypeId="40c653c9-5c1d-4ae5-b560-3e5081779819"/>
+    <managerType typeId="ebd2d0b1-02ff-4ce1-ace7-a22fc2dfe4bf" valueTypeId="6b96c02c-01f8-417f-8165-f3c3462545f0"/>
+  </producedTypes>
+  <name>Характеристики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Характеристики</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Характеристики.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Характеристики.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Характеристики.Form.ФормаЭлемента</defaultObjectForm>
+  <tabularSections uuid="cd7af56c-9e13-4728-a2e6-e6a8167dca88">
+    <producedTypes>
+      <objectType typeId="4e8bd5ef-1606-4454-bd97-dcb85df5fbaa" valueTypeId="bd926b5e-b218-425c-bbd1-6ebec005865f"/>
+      <rowType typeId="5d4246c2-c31b-47be-a3f4-cd3f03295373" valueTypeId="c0407cc7-818d-42ed-a847-519268cc5654"/>
+    </producedTypes>
+    <name>ПереченьХарактеристик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перечень характеристик</value>
+    </synonym>
+    <attributes uuid="99ba0779-1ec2-4c48-b677-a6e344bafc1e">
+      <name>ХарактеристикаТовара</name>
+      <synonym>
+        <key>ru</key>
+        <value>Характеристика товара</value>
+      </synonym>
+      <type>
+        <types>ChartOfCharacteristicTypesRef.ХарактеристикаТоваров</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c593c1ea-3294-4e7f-a1e6-b29dbf4f05f2">
+      <name>ЗначениеХарактеристики</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение характеристики</value>
+      </synonym>
+      <type>
+        <types>Characteristic.ХарактеристикаТоваров</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Артикул</name>
+        <field>Catalog.Характеристики.TabularSection.ПереченьХарактеристик.Attribute.ХарактеристикаТовара</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="cd904a0c-8975-4039-a0d7-531b42b35976">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

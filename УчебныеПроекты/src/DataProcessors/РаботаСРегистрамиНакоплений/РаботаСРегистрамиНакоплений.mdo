@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4bbfbaf5-48ed-4a5b-90fc-3feedf5218e5">
+  <producedTypes>
+    <objectType typeId="50b07406-a91f-47cf-abe9-3bd6cae3244f" valueTypeId="d34cad5d-a759-4012-909d-6c30360402d3"/>
+    <managerType typeId="420976a2-c674-4d80-bff8-087061ed598c" valueTypeId="947f49c4-9e5e-40bb-9689-a00e3e159891"/>
+  </producedTypes>
+  <name>РаботаСРегистрамиНакоплений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с регистрами накоплений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РаботаСРегистрамиНакоплений.Form.Форма</defaultForm>
+  <attributes uuid="3523b224-df76-40d2-afc8-814dbc3cbc3e">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0ba74f79-554b-4389-8392-6a82ad1ebea4">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="649b5a16-4cb9-4aca-95d7-e3b4ad3e27c0">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

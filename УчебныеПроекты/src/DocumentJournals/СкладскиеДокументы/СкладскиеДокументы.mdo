@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="136bc056-2645-4d3b-b454-19b05f10acfc">
+  <producedTypes>
+    <selectionType typeId="3b60e3a4-b494-40de-9947-c88888f29348" valueTypeId="c1a3a833-06fd-4a93-ac36-a5fe5050a1fb"/>
+    <listType typeId="d5489f33-4a5b-4abd-acb2-2325e64f17d8" valueTypeId="9aa0ce2f-7f47-4b3c-9d90-5b27b8b6bb37"/>
+    <managerType typeId="60e21123-87e9-462f-acbe-db4ecb8e6eff" valueTypeId="26ac2ce2-b10a-464a-adec-33e4b072e4d1"/>
+  </producedTypes>
+  <name>СкладскиеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Складские документы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ПоступлениеТоваров</registeredDocuments>
+  <registeredDocuments>Document.ПродажаТоваров</registeredDocuments>
+  <columns uuid="12ae7ab8-7afa-45d1-a805-b90a3d4c9ee0">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <references>Document.ПоступлениеТоваров.Attribute.Организация</references>
+    <references>Document.ПродажаТоваров.Attribute.Организация</references>
+  </columns>
+  <columns uuid="b17ed0eb-93ba-4645-85b4-ed568849c3d2">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <references>Document.ПоступлениеТоваров.Attribute.Контрагент</references>
+    <references>Document.ПродажаТоваров.Attribute.Контрагент</references>
+  </columns>
+  <columns uuid="112756b2-e88a-4dc9-ab1b-07c8ad3def60">
+    <name>СуммаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма документа</value>
+    </synonym>
+    <references>Document.ПоступлениеТоваров.Attribute.СуммаДокумента</references>
+    <references>Document.ПродажаТоваров.Attribute.СуммаДокумента</references>
+  </columns>
+</mdclass:DocumentJournal>

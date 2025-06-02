@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e69db1e5-3dc5-4b9b-b16e-686034d874db">
+  <producedTypes>
+    <selectionType typeId="9ea4fd6d-f20c-49ba-a135-dda69f8afe46" valueTypeId="536cb937-8c8b-4d6a-834c-386a3f051814"/>
+    <listType typeId="dda8b505-053c-405a-a3de-25e0836964fb" valueTypeId="4c5e002e-0dec-434b-974c-8f1d1bc922c1"/>
+    <managerType typeId="7de757c5-7e08-46ab-b27e-820b58b3e905" valueTypeId="1229b83f-cbd9-4f88-a1b1-116d66d99584"/>
+    <recordSetType typeId="061add35-4a81-4485-8886-5b25db6dc745" valueTypeId="3f8030dd-6346-4ad2-9c0c-96f0b87ae4bc"/>
+    <recordKeyType typeId="42d3dce9-a28a-474a-928c-5c355868c93e" valueTypeId="0d335624-9b85-449a-950a-8e59a0f3c28e"/>
+    <recordType typeId="27f75f19-ff69-42e0-bd0c-b4995c2d7efe" valueTypeId="80fd4396-1b1e-4906-bdb0-fb273589ed26"/>
+  </producedTypes>
+  <name>ВедомостьПоТоварам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ведомость по товарам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="423b3378-a000-45ec-9196-f340e6afd89c">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="0a42e5e0-4305-4355-8d4b-9d1ccb0ea4f1">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

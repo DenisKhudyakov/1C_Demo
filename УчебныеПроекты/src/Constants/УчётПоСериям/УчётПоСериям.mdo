@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c8eee19a-8cdf-45bd-8e8f-10d568a12ed5">
+  <producedTypes>
+    <managerType typeId="828e90ba-0f7b-4cf1-8c7e-f075dcda6566" valueTypeId="34b054fb-7e8c-415c-87f2-814a6da98bf5"/>
+    <valueManagerType typeId="c346cbaa-5642-4cad-865e-00edead6fb0a" valueTypeId="ae279e55-eb86-4ca3-ba32-4f50d63f4810"/>
+    <valueKeyType typeId="831b1680-ca15-468f-91c0-da5bbf278dc2" valueTypeId="3e2e8f84-42d9-498a-9529-fd91150da251"/>
+  </producedTypes>
+  <name>УчётПоСериям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учёт по сериям</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

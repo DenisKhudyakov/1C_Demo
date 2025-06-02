@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5099f39f-74f3-4bfa-98fe-6fcd2c4fd63d">
+  <name>УчетПоПодразделениям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет по подразделениям</value>
+  </synonym>
+  <location>Catalog.Организации.Attribute.УчетПоПодразделениям</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ПоступлениеТоваров.Attribute.Подразделение</content>
+  <content>Catalog.Подразделение</content>
+</mdclass:FunctionalOption>

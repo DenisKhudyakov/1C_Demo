@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba118bb1-a3d0-4e33-8a0a-f08e40f73a91">
+  <name>Общие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общие</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonForm.ПарметрыУчета</content>
+  <content>DataProcessor.РаботаСоСправочником</content>
+  <content>DataProcessor.РаботаСДокументами</content>
+  <content>DataProcessor.РаботаСРегистрамиСведений</content>
+  <content>InformationRegister.СвойстваНоменклатуры</content>
+  <content>DataProcessor.МеханизмЗапросов</content>
+  <content>AccumulationRegister.ОстаткиНоменклатуры</content>
+  <content>AccumulationRegister.ПродажаТоваров</content>
+  <content>DataProcessor.РаботаСРегистрамиНакоплений</content>
+  <subsystems>Справочники</subsystems>
+  <subsystems>Журналы</subsystems>
+</mdclass:Subsystem>
